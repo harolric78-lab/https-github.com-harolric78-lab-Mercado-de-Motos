@@ -1,13 +1,6 @@
-# Proyecto de Introducción a Ciencia de Datos Curso 2026-2027
-
-Repositorio para publicar los proyectos.
-
-Formato de los Issues:
-
-```
-Name: Ariadna Velázquez
-Domain: inmobiliario
-Repositorio: <https://github.com/matcom/ICD-26-27>
-```
-
-Tiempo final de publicación del issue con el link del proyecto: **viernes 9 de octubre**
+# Proyecto: Investigacion del Mercado de Motos en Cuba 
+### Estudiante: Harold Ricardo Ponce  
+### Asignatura: Introducción a la Ciencia de Datos-1er Año
+# Preguntas del Proyecto
+### 1-¿ Como esta creciendo el mercado de motos electricas frente al de combustion ?
+### 2-¿ Que motos tienen precios anormalmente altos ?
