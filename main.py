@@ -2,7 +2,7 @@
 Pipeline principal: Scraping → Limpieza → Análisis
 """
 
-from src.scraper import scrape_revolico, save_to_csv
+from scraping.scraper import scrape_revolico, save_to_csv
 from src.cleaning import load_raw, clean_data, save_clean
 from src.analysis import load_clean, run_analysis
 

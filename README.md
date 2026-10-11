@@ -1,52 +1,31 @@
-# 🏍️ Proyecto: Análisis del Mercado de Motos en Cuba
+# 🏍️ Proyecto: Investigación del Mercado de Motos en Cuba
 
-**Harold Ricardo Ponce**
-**Introducción a la Ciencia de Datos**
-
-**Rol:** Analista de motos
+📋 **Estudiante:** Harold Ricardo Ponce
+**Asignatura:** Introducción a la Ciencia de Datos
 
 ---
 
-## Objetivo
+## 🎯 Preguntas de Análisis
 
-Analizar el mercado de motocicletas en Cuba mediante técnicas de ciencia de datos, desde la extracción de anuncios hasta la generación de conclusiones.
-
----
-
-## Preguntas de Investigación
-
-- ¿Cuál es la moto más vendida en Cuba?
-- ¿Qué marcas dominan el mercado cubano?
-- ¿Cómo varían los precios entre motos eléctricas, de combustión y patinetes?
+1. ¿Cómo está creciendo el mercado de motos eléctricas frente al de combustión?
+2. ¿Qué motos tienen precios anormalmente altos?
 
 ---
 
-## Comparación de Precios Promedio (CUP)
+## 📈 Obtención de Datos
 
-| Tipo | Promedio | Cantidad |
-|------|----------|----------|
-| Combustión | 13,880 | 10 |
-| Eléctrica | 4,240 | 10 |
-| Patinete | 3,180 | 10 |
-
-> Datos completos en `data/comparacion_precios.csv`
-
----
-
-## Metodología
-
-| Fase | Técnica | Herramienta |
-|------|---------|-------------|
-| Extracción | Web Scraping | BeautifulSoup + Requests |
-| Limpieza | Duplicados, normalización | Pandas |
-| Análisis | Estadísticas descriptivas | Pandas |
-| Visualización | Histogramas, boxplots | Matplotlib + Seaborn |
+| Fuente | Cantidad |
+|--------|----------|
+| 📢 Sitios de anuncios (Revolico) | ██████████████████████████████ 30 |
+| 📝 Encuestas | ██████████████████████████████ 30 |
+| 👥 Grupos especializados | 0 |
+| 🔧 Importadoras y talleres | ██████████████████████████████ 30 |
 
 ---
 
-## Ejecución
+## 🛠️ Tecnologías Utilizadas
 
-```bash
-pip install -r requirements.txt
-python main.py
-```
+- Python
+- Requests
+- Jupyter Notebook
+- BeautifulSoup (scripts)
