@@ -29,3 +29,22 @@
 - Requests
 - Jupyter Notebook
 - BeautifulSoup (scripts)
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+├── scraping/              → Código de scraping (Revolico)
+│   ├── __init__.py
+│   └── scraper.py         → Extracción de anuncios
+├── src/
+│   ├── cleaning.py        → Limpieza y normalización
+│   ├── analysis.py        → Gráficos y conclusiones
+│   └── generate_comparison.py
+├── data/
+│   └── comparacion_precios.csv
+├── main.py                → Pipeline completo
+├── requirements.txt
+└── README.md
+```
